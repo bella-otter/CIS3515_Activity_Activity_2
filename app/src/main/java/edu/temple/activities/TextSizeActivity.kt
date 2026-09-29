@@ -24,6 +24,7 @@ class TextSizeActivity : AppCompatActivity() {
 
             // TODO Step 2: Pass selected value back to activity that launched TextSizeActivity
             adapter = TextSizeAdapter(textSizes){
+                //set return value to the selected value and end self
 
             }
             layoutManager = LinearLayoutManager(this@TextSizeActivity)
